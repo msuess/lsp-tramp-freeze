@@ -1,0 +1,12 @@
+[package]
+name = "rs_test"
+version = "0.1.0"
+authors = ["Marco Süß <msuess@mailbox.org>"]
+edition = "2018"
+publish = false
+
+[lib]
+crate-type = ["lib"]
+
+[dependencies]
+sgxs-loaders = { version = "0.1.0", path = "./third-party/rust-sgx/sgxs-loaders" }
